@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F563C39318BFE744009ECC8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F563C39218BFE744009ECC8C /* Foundation.framework */; };
+		F563C39518BFE744009ECC8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F563C39418BFE744009ECC8C /* CoreGraphics.framework */; };
+		F563C39718BFE744009ECC8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F563C39618BFE744009ECC8C /* UIKit.framework */; };
+		F563C39D18BFE744009ECC8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F563C39B18BFE744009ECC8C /* InfoPlist.strings */; };
+		F563C39F18BFE744009ECC8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F563C39E18BFE744009ECC8C /* main.m */; };
+		F563C3A318BFE744009ECC8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F563C3A218BFE744009ECC8C /* AppDelegate.m */; };
+		F563C3A618BFE744009ECC8C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F563C3A418BFE744009ECC8C /* Main_iPhone.storyboard */; };
+		F563C3A918BFE744009ECC8C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F563C3A718BFE744009ECC8C /* Main_iPad.storyboard */; };
+		F563C3AC18BFE744009ECC8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F563C3AB18BFE744009ECC8C /* ViewController.m */; };
+		F563C3AE18BFE744009ECC8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F563C3AD18BFE744009ECC8C /* Images.xcassets */; };
+		F563C3D018BFEAA6009ECC8C /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = F563C3CF18BFEAA6009ECC8C /* UIView+Category.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F563C38F18BFE744009ECC8C /* Boneyard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boneyard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F563C39218BFE744009ECC8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F563C39418BFE744009ECC8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F563C39618BFE744009ECC8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F563C39A18BFE744009ECC8C /* Boneyard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Boneyard-Info.plist"; sourceTree = "<group>"; };
+		F563C39C18BFE744009ECC8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F563C39E18BFE744009ECC8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F563C3A018BFE744009ECC8C /* Boneyard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Boneyard-Prefix.pch"; sourceTree = "<group>"; };
+		F563C3A118BFE744009ECC8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F563C3A218BFE744009ECC8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F563C3A518BFE744009ECC8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		F563C3A818BFE744009ECC8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		F563C3AA18BFE744009ECC8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F563C3AB18BFE744009ECC8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F563C3AD18BFE744009ECC8C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Boneyard/Images.xcassets; sourceTree = "<group>"; };
+		F563C3CE18BFEAA6009ECC8C /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		F563C3CF18BFEAA6009ECC8C /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F563C38C18BFE744009ECC8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F563C39518BFE744009ECC8C /* CoreGraphics.framework in Frameworks */,
+				F563C39718BFE744009ECC8C /* UIKit.framework in Frameworks */,
+				F563C39318BFE744009ECC8C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F563C38618BFE744009ECC8C = {
+			isa = PBXGroup;
+			children = (
+				F563C3CB18BFE771009ECC8C /* Resources */,
+				F563C39818BFE744009ECC8C /* Boneyard */,
+				F563C3CA18BFE750009ECC8C /* Ignore */,
+			);
+			sourceTree = "<group>";
+		};
+		F563C39018BFE744009ECC8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F563C38F18BFE744009ECC8C /* Boneyard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F563C39118BFE744009ECC8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F563C39218BFE744009ECC8C /* Foundation.framework */,
+				F563C39418BFE744009ECC8C /* CoreGraphics.framework */,
+				F563C39618BFE744009ECC8C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F563C39818BFE744009ECC8C /* Boneyard */ = {
+			isa = PBXGroup;
+			children = (
+				F563C3A118BFE744009ECC8C /* AppDelegate.h */,
+				F563C3A218BFE744009ECC8C /* AppDelegate.m */,
+				F563C3AA18BFE744009ECC8C /* ViewController.h */,
+				F563C3AB18BFE744009ECC8C /* ViewController.m */,
+				F563C3CE18BFEAA6009ECC8C /* UIView+Category.h */,
+				F563C3CF18BFEAA6009ECC8C /* UIView+Category.m */,
+			);
+			path = Boneyard;
+			sourceTree = "<group>";
+		};
+		F563C39918BFE744009ECC8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F563C39A18BFE744009ECC8C /* Boneyard-Info.plist */,
+				F563C39B18BFE744009ECC8C /* InfoPlist.strings */,
+				F563C39E18BFE744009ECC8C /* main.m */,
+				F563C3A018BFE744009ECC8C /* Boneyard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = Boneyard;
+			sourceTree = "<group>";
+		};
+		F563C3CA18BFE750009ECC8C /* Ignore */ = {
+			isa = PBXGroup;
+			children = (
+				F563C39918BFE744009ECC8C /* Supporting Files */,
+				F563C39118BFE744009ECC8C /* Frameworks */,
+				F563C39018BFE744009ECC8C /* Products */,
+			);
+			name = Ignore;
+			sourceTree = "<group>";
+		};
+		F563C3CB18BFE771009ECC8C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F563C3A418BFE744009ECC8C /* Main_iPhone.storyboard */,
+				F563C3A718BFE744009ECC8C /* Main_iPad.storyboard */,
+				F563C3AD18BFE744009ECC8C /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F563C38E18BFE744009ECC8C /* Boneyard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F563C3C418BFE744009ECC8C /* Build configuration list for PBXNativeTarget "Boneyard" */;
+			buildPhases = (
+				F563C38B18BFE744009ECC8C /* Sources */,
+				F563C38C18BFE744009ECC8C /* Frameworks */,
+				F563C38D18BFE744009ECC8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Boneyard;
+			productName = Boneyard;
+			productReference = F563C38F18BFE744009ECC8C /* Boneyard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F563C38718BFE744009ECC8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = JimmyBouker;
+			};
+			buildConfigurationList = F563C38A18BFE744009ECC8C /* Build configuration list for PBXProject "Boneyard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F563C38618BFE744009ECC8C;
+			productRefGroup = F563C39018BFE744009ECC8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F563C38E18BFE744009ECC8C /* Boneyard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F563C38D18BFE744009ECC8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F563C3A918BFE744009ECC8C /* Main_iPad.storyboard in Resources */,
+				F563C3AE18BFE744009ECC8C /* Images.xcassets in Resources */,
+				F563C3A618BFE744009ECC8C /* Main_iPhone.storyboard in Resources */,
+				F563C39D18BFE744009ECC8C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F563C38B18BFE744009ECC8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F563C3AC18BFE744009ECC8C /* ViewController.m in Sources */,
+				F563C3A318BFE744009ECC8C /* AppDelegate.m in Sources */,
+				F563C3D018BFEAA6009ECC8C /* UIView+Category.m in Sources */,
+				F563C39F18BFE744009ECC8C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F563C39B18BFE744009ECC8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F563C39C18BFE744009ECC8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F563C3A418BFE744009ECC8C /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F563C3A518BFE744009ECC8C /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			path = Boneyard;
+			sourceTree = "<group>";
+		};
+		F563C3A718BFE744009ECC8C /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F563C3A818BFE744009ECC8C /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			path = Boneyard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F563C3C218BFE744009ECC8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F563C3C318BFE744009ECC8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F563C3C518BFE744009ECC8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Boneyard/Boneyard-Prefix.pch";
+				INFOPLIST_FILE = "Boneyard/Boneyard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F563C3C618BFE744009ECC8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Boneyard/Boneyard-Prefix.pch";
+				INFOPLIST_FILE = "Boneyard/Boneyard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F563C38A18BFE744009ECC8C /* Build configuration list for PBXProject "Boneyard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F563C3C218BFE744009ECC8C /* Debug */,
+				F563C3C318BFE744009ECC8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F563C3C418BFE744009ECC8C /* Build configuration list for PBXNativeTarget "Boneyard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F563C3C518BFE744009ECC8C /* Debug */,
+				F563C3C618BFE744009ECC8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F563C38718BFE744009ECC8C /* Project object */;
+}
