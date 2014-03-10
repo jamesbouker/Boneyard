@@ -154,6 +154,11 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = JimmyBouker;
+				TargetAttributes = {
+					F563C38E18BFE744009ECC8C = {
+						DevelopmentTeam = 6KM367XE7J;
+					};
+				};
 			};
 			buildConfigurationList = F563C38A18BFE744009ECC8C /* Build configuration list for PBXProject "Boneyard" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -248,7 +253,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: james bouker (24S766X32M)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -310,6 +316,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: james bouker (24S766X32M)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Boneyard/Boneyard-Prefix.pch";
 				INFOPLIST_FILE = "Boneyard/Boneyard-Info.plist";
@@ -323,6 +330,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Boneyard/Boneyard-Prefix.pch";
 				INFOPLIST_FILE = "Boneyard/Boneyard-Info.plist";
@@ -350,6 +358,7 @@
 				F563C3C618BFE744009ECC8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
